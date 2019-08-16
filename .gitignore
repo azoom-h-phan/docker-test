@@ -1,0 +1,24 @@
+.DS_Store
+
+# dotenv environment variables file
+.env
+
+# Dependency directories
+node_modules/
+
+# logs file
+logs/*
+
+dist/*
+
+.idea/
+
+development/elasticsearch_1/data/*
+development/elasticsearch_7/data/*
+development/mysql/data/*
+/specs/*.json
+swagger.json
+/**/*openapi.json
+
+yarn-error.log
+!.gitignore
